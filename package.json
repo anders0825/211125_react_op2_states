@@ -5,7 +5,7 @@
   "homepage": "https://anders0825.github.io/211125_react_op2_states/",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "pnpm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
