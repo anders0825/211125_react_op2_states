@@ -3,6 +3,7 @@ CookieClicker
 */
 
 import { useState } from "react";
+import cookiePng from "../assets/images/cookie.png";
 
 export default function CookieClicker(props) {
   // Javascript:
@@ -18,7 +19,7 @@ export default function CookieClicker(props) {
         <h2>Cookie Clicker:</h2>
         <p id="score">{count}</p>
         <button onClick={clickCookie}>
-          <img src="cookie.png" alt="Image of a Cookie" />
+          <img src={cookiePng} alt="Image of a Cookie" />
         </button>
         <p>I'm a cookie and I just love getting clicked...</p>
       </section>
