@@ -1,0 +1,135 @@
+/* CSS
+App.css 
+*/
+
+.Component-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  gap: 10px;
+
+  max-width: 500px;
+
+  padding: 25px;
+
+  border: 2px solid var(--accent-alt);
+  border-radius: 10px;
+
+  background-color: var(--bg-alt);
+}
+
+#CookieClicker-cont #score {
+  text-align: center;
+  min-width: 75px;
+  padding: 5px 15px;
+
+  border: 1px solid var(--accent-alt);
+  border-radius: 5px;
+
+  background-color: var(--bg-main);
+
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#CookieClicker-cont button {
+  background: none;
+  border: none;
+  border-radius: 150px;
+  padding: 0;
+  margin: 15px 0;
+  transition: transform 0.1s ease;
+}
+
+#CookieClicker-cont button:hover {
+  transform: scale(1.02);
+  filter: brightness(90%);
+}
+
+#CookieClicker-cont button:active {
+  transform: scale(0.98);
+  filter: brightness(85%);
+}
+
+#CookieClicker-cont img {
+  max-width: 200px;
+}
+
+#Users-cont ul {
+  list-style: none;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 5px;
+}
+
+#Users-cont li {
+  padding: 5px 10px;
+
+  border: 1px solid var(--accent-main);
+
+  background-color: var(--bg-main);
+}
+
+.username {
+  font-weight: 600;
+}
+
+.email {
+  color: var(--text-alt);
+  margin-left: 5px;
+}
+
+#Users-cont form {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 20px;
+}
+
+#Users-cont label {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 5px;
+}
+
+#Users-cont input {
+  height: 25px;
+  width: 150px;
+  padding: 0 5px;
+
+  border: 1px solid var(--accent-main);
+  border-radius: 5px;
+
+  background-color: var(--bg-main);
+}
+
+#Users-cont button {
+  padding: 5px;
+  border: 1px solid var(--accent-main);
+  border-radius: 10px;
+
+  background-color: var(--bg-main);
+}
+
+#Users-cont button:hover {
+  background-color: var(--bg-alt);
+  filter: brightness(110%);
+}
+
+#Users-cont button:active {
+  background-color: var(--bg-main);
+  filter: brightness(90%);
+}
+
+#CatFacts-cont ul {
+  list-style: none;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 5px;
+}
+
+#CatFacts-cont li {
+  padding: 5px;
+
+  border-bottom: 1px solid var(--accent-alt);
+}
